@@ -33,7 +33,7 @@
                     <workingDirectory>src/main</workingDirectory>
                 </configuration>
                 <executions>
-                    <execution>
+                    <!-- <execution>
                         <id>install node and npm</id>
                         <goals>
                             <goal>install-node-and-npm</goal>
@@ -57,7 +57,7 @@
                         <goals>
                             <goal>bower</goal>
                         </goals>
-                    </execution>
+                    </execution>-->
                     <execution>
                         <id>grunt build</id>
                         <goals>
