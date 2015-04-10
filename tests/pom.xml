@@ -40,7 +40,13 @@
             <groupId>org.jboss.arquillian.junit</groupId>
             <artifactId>arquillian-junit-container</artifactId>
          </dependency>
-      </dependencies>
+         <dependency>
+            <groupId>com.openshift</groupId>
+            <artifactId>openshift-java-client</artifactId>
+            <version>2.5.0.Final</version>
+            <scope>test</scope>
+         </dependency>
+    </dependencies>
 
       <build>
          <plugins>
